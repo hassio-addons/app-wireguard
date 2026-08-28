@@ -1,11 +1,10 @@
 #!/command/with-contenv bashio
+# shellcheck shell=bash
 # ==============================================================================
 # Home Assistant Community App: WireGuard
 # Runs WireGuard
 # ==============================================================================
 declare interface
-
-s6-svc -O /run/service/wireguard
 
 bashio::log.info "Starting WireGuard..."
 
