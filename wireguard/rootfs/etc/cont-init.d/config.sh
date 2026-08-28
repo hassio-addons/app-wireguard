@@ -186,7 +186,7 @@ for peer in $(bashio::config 'peers|keys'); do
     endpoint=$(bashio::config "peers[${peer}].endpoint")
     fwmark=$(bashio::config "peers[${peer}].fwmark")
     host=$(bashio::config 'server.host')
-    port=$(bashio::addon.port "51820/udp")
+    port=$(bashio::app.port "51820/udp")
     pre_shared_key=$(bashio::config "peers[${peer}].pre_shared_key")
 
     # Create directory for storing client configuration
