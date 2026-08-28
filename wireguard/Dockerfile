@@ -9,15 +9,15 @@ SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 # hadolint ignore=DL3003
 RUN \
     apk add --no-cache --virtual .build-dependencies \
-        build-base=0.5-r3 \
-        git=2.49.1-r0 \
+        build-base=0.5-r4 \
+        git=2.54.0-r0 \
     \
     && apk add --no-cache \
-        go=1.24.13-r0 \
-        iptables=1.8.11-r1 \
+        go=1.26.3-r0 \
+        iptables=1.8.13-r0 \
         libqrencode-tools=4.1.1-r3 \
-        openresolv=3.14.1-r0 \
-        wireguard-tools=1.0.20250521-r0 \
+        openresolv=3.17.4-r0 \
+        wireguard-tools=1.0.20260223-r0 \
     \
     && ln -sf /sbin/xtables-nft-multi /sbin/ip6tables \
     && ln -sf /sbin/xtables-nft-multi /sbin/iptables \
