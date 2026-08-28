@@ -4,15 +4,9 @@
 ![Project Stage][project-stage-shield]
 [![License][license-shield]](LICENSE.md)
 
-![Supports aarch64 Architecture][aarch64-shield]
-![Supports amd64 Architecture][amd64-shield]
-
 [![Github Actions][github-actions-shield]][github-actions]
 ![Project Maintenance][maintenance-shield]
 [![GitHub Activity][commits-shield]][commits]
-
-[![Discord][discord-shield]][discord]
-[![Community Forum][forum-shield]][forum]
 
 [![Sponsor Frenck via GitHub Sponsors][github-sponsors-shield]][github-sponsors]
 
@@ -61,7 +55,7 @@ This is an active open-source project. We are always open to people who want to
 use the code or contribute to it.
 
 We have set up a separate document containing our
-[contribution guidelines](CONTRIBUTING.md).
+[contribution guidelines](.github/CONTRIBUTING.md).
 
 Thank you for being involved! :heart_eyes:
 
@@ -83,7 +77,7 @@ our [GitHub Repository][repository].
 
 MIT License
 
-Copyright (c) 2019-2025 Franck Nijhof
+Copyright (c) 2019-2026 Franck Nijhof
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -103,16 +97,12 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-[aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
-[amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [commits-shield]: https://img.shields.io/github/commit-activity/y/hassio-addons/addon-wireguard.svg
 [commits]: https://github.com/hassio-addons/addon-wireguard/commits/main
 [contributors]: https://github.com/hassio-addons/addon-wireguard/graphs/contributors
 [discord-ha]: https://discord.gg/c5DvZ4e
-[discord-shield]: https://img.shields.io/discord/478094546522079232.svg
 [discord]: https://discord.me/hassioaddons
 [docs]: https://github.com/hassio-addons/addon-wireguard/blob/main/wireguard/DOCS.md
-[forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
 [forum]: https://community.home-assistant.io/t/home-assistant-community-add-on-wireguard/134662?u=frenck
 [frenck]: https://github.com/frenck
 [github-actions-shield]: https://github.com/hassio-addons/addon-wireguard/workflows/CI/badge.svg
@@ -121,7 +111,7 @@ SOFTWARE.
 [github-sponsors]: https://github.com/sponsors/frenck
 [issue]: https://github.com/hassio-addons/addon-wireguard/issues
 [license-shield]: https://img.shields.io/github/license/hassio-addons/addon-wireguard.svg
-[maintenance-shield]: https://img.shields.io/maintenance/yes/2025.svg
+[maintenance-shield]: https://img.shields.io/maintenance/yes/2026.svg
 [patreon-shield]: https://frenck.dev/wp-content/uploads/2019/12/patreon.png
 [patreon]: https://www.patreon.com/frenck
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-yellow.svg
