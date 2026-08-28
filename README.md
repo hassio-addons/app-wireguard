@@ -1,4 +1,4 @@
-# Home Assistant Community Add-on: WireGuard
+# Home Assistant Community App: WireGuard
 
 [![GitHub Release][releases-shield]][releases]
 ![Project Stage][project-stage-shield]
@@ -26,13 +26,13 @@ supercomputers alike, fit for many different circumstances.
 
 Initially released for the Linux kernel, it is now cross-platform (Windows,
 macOS, BSD, iOS, Android) and widely deployable,
-including via an Hass.io add-on!
+including via an Hass.io app!
 
 WireGuard is currently under heavy development, but already it might be
 regarded as the most secure, easiest to use, and the simplest VPN solution
 in the industry.
 
-[:books: Read the full add-on documentation][docs]
+[:books: Read the full app documentation][docs]
 
 ## Support
 
@@ -40,7 +40,7 @@ Got questions?
 
 You have several options to get them answered:
 
-- The [Home Assistant Community Add-ons Discord chat server][discord] for add-on
+- The [Home Assistant Community Apps Discord chat server][discord] for app
   support and feature requests.
 - The [Home Assistant Discord chat server][discord-ha] for general Home
   Assistant discussions and questions.
@@ -66,11 +66,11 @@ The original setup of this repository is by [Franck Nijhof][frenck].
 For a full list of all authors and contributors,
 check [the contributor's page][contributors].
 
-## We have got some Home Assistant add-ons for you
+## We have got some Home Assistant apps for you
 
 Want some more functionality to your Home Assistant instance?
 
-We have created multiple add-ons for Home Assistant. For a full list, check out
+We have created multiple apps for Home Assistant. For a full list, check out
 our [GitHub Repository][repository].
 
 ## License
@@ -97,26 +97,26 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-[commits-shield]: https://img.shields.io/github/commit-activity/y/hassio-addons/addon-wireguard.svg
-[commits]: https://github.com/hassio-addons/addon-wireguard/commits/main
-[contributors]: https://github.com/hassio-addons/addon-wireguard/graphs/contributors
+[commits-shield]: https://img.shields.io/github/commit-activity/y/hassio-addons/app-wireguard.svg
+[commits]: https://github.com/hassio-addons/app-wireguard/commits/main
+[contributors]: https://github.com/hassio-addons/app-wireguard/graphs/contributors
 [discord-ha]: https://discord.gg/c5DvZ4e
 [discord]: https://discord.me/hassioaddons
-[docs]: https://github.com/hassio-addons/addon-wireguard/blob/main/wireguard/DOCS.md
+[docs]: https://github.com/hassio-addons/app-wireguard/blob/main/wireguard/DOCS.md
 [forum]: https://community.home-assistant.io/t/home-assistant-community-add-on-wireguard/134662?u=frenck
 [frenck]: https://github.com/frenck
-[github-actions-shield]: https://github.com/hassio-addons/addon-wireguard/workflows/CI/badge.svg
-[github-actions]: https://github.com/hassio-addons/addon-wireguard/actions
+[github-actions-shield]: https://github.com/hassio-addons/app-wireguard/workflows/CI/badge.svg
+[github-actions]: https://github.com/hassio-addons/app-wireguard/actions
 [github-sponsors-shield]: https://frenck.dev/wp-content/uploads/2019/12/github_sponsor.png
 [github-sponsors]: https://github.com/sponsors/frenck
-[issue]: https://github.com/hassio-addons/addon-wireguard/issues
-[license-shield]: https://img.shields.io/github/license/hassio-addons/addon-wireguard.svg
+[issue]: https://github.com/hassio-addons/app-wireguard/issues
+[license-shield]: https://img.shields.io/github/license/hassio-addons/app-wireguard.svg
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2026.svg
 [patreon-shield]: https://frenck.dev/wp-content/uploads/2019/12/patreon.png
 [patreon]: https://www.patreon.com/frenck
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-yellow.svg
 [reddit]: https://reddit.com/r/homeassistant
-[releases-shield]: https://img.shields.io/github/release/hassio-addons/addon-wireguard.svg
-[releases]: https://github.com/hassio-addons/addon-wireguard/releases
+[releases-shield]: https://img.shields.io/github/release/hassio-addons/app-wireguard.svg
+[releases]: https://github.com/hassio-addons/app-wireguard/releases
 [repository]: https://github.com/hassio-addons/repository
 [wireguard]: https://www.wireguard.com

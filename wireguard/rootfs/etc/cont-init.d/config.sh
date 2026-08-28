@@ -1,6 +1,6 @@
 #!/command/with-contenv bashio
 # ==============================================================================
-# Home Assistant Community Add-on: WireGuard
+# Home Assistant Community App: WireGuard
 # Creates the interface configuration
 # ==============================================================================
 declare -a list
@@ -108,7 +108,7 @@ if [[ $(</proc/sys/net/ipv4/ip_forward) -eq 0 ]]; then
     bashio::log.warning "however, you cannot access your home network or"
     bashio::log.warning "the internet via the VPN tunnel."
     bashio::log.warning
-    bashio::log.warning "Please consult the add-on documentation on how"
+    bashio::log.warning "Please consult the app documentation on how"
     bashio::log.warning "to resolve this."
     bashio::log.warning
 

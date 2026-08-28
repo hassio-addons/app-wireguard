@@ -7,7 +7,7 @@ your contributions.
 ## Supported Versions
 
 Security updates are provided only for the latest released version of this
-add-on. Users are strongly encouraged to keep their installations up to date.
+app. Users are strongly encouraged to keep their installations up to date.
 
 | Version        | Supported          |
 | -------------- | ------------------ |
@@ -22,7 +22,7 @@ discussions, or pull requests.**
 Instead, report them privately through GitHub's private vulnerability
 reporting:
 
-[**Report a vulnerability**](https://github.com/hassio-addons/addon-wireguard/security/advisories/new)
+[**Report a vulnerability**](https://github.com/hassio-addons/app-wireguard/security/advisories/new)
 
 If for any reason you are unable to use GitHub's private vulnerability
 reporting, you may also reach out to the maintainer by email at
@@ -32,7 +32,7 @@ When reporting, please include as much of the following as possible:
 
 - A clear description of the vulnerability and its potential impact.
 - Steps to reproduce, or a proof of concept.
-- Affected version(s) of the add-on.
+- Affected version(s) of the app.
 - Any known mitigations or workarounds.
 
 ## Disclosure Timeline
@@ -52,7 +52,7 @@ notes for the fix, unless you prefer to remain anonymous.
 
 The following are **not** considered security vulnerabilities in this project:
 
-- Vulnerabilities in the add-on base image or in the Alpine packages it
+- Vulnerabilities in the app base image or in the Alpine packages it
   installs. These are handled continuously by
   [Renovate](https://github.com/renovatebot/renovate) and addressed through
   regular dependency updates.
@@ -62,11 +62,11 @@ The following are **not** considered security vulnerabilities in this project:
   directly to the [WireGuard project](https://www.wireguard.com/#contact).
 - Weaknesses resulting from configuration the operator supplied themselves,
   such as custom `pre_up`, `post_up`, `pre_down` or `post_down` commands,
-  hand-provided keys, or peers granted broad `allowed_ips`. The add-on assumes
+  hand-provided keys, or peers granted broad `allowed_ips`. The app assumes
   its own configuration is trusted.
 
 ## Scope
 
-This security policy covers the WireGuard add-on published in the
-[Home Assistant Community Add-ons repository](https://github.com/hassio-addons/repository)
+This security policy covers the WireGuard app published in the
+[Home Assistant Community Apps repository](https://github.com/hassio-addons/repository)
 and its source code in this repository.
