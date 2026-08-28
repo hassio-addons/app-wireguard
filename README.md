@@ -34,6 +34,18 @@ in the industry.
 
 [:books: Read the full app documentation][docs]
 
+## This app is a WireGuard server, not a client
+
+This app runs a WireGuard **server** on your Home Assistant instance. Your
+phone, laptop, and other devices are the peers: they connect **to** Home
+Assistant. The app generates their client configurations and QR codes for you,
+which is what the `peers` option is for.
+
+The other direction is not supported. There is no option to have Home Assistant
+join an existing WireGuard network as a client, for example one hosted on a VPS,
+running on your router, or run by a commercial VPN provider. If that is what you
+are looking for, this is not the app you need.
+
 ## Support
 
 Got questions?
